@@ -1,0 +1,204 @@
+[ 2016-01-06T17:24:33+08:00 ] 192.168.3.42 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-01-06T17:58:45+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T17:59:16+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T17:59:16+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T17:59:27+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T17:59:44+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T17:59:45+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T17:59:46+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T17:59:46+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T17:59:46+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T17:59:46+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T17:59:46+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000216s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T17:59:47+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001579s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T17:59:47+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T17:59:47+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001856s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T17:59:47+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T17:59:47+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001667s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T17:59:47+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T17:59:48+08:00 ] 192.168.3.42 /index.php/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000225s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001658s ]
+ERR: 无法加载模块:Suplier
+
+[ 2016-01-06T18:00:01+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T18:00:13+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T18:00:39+08:00 ] 192.168.3.42 /Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T18:00:47+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T18:01:54+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T18:01:55+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002270s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T18:01:56+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T18:01:57+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T18:02:54+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000222s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T18:02:55+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T18:02:55+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T18:02:55+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T18:02:55+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T18:02:56+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001413s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-01-06T18:02:56+08:00 ] 192.168.3.42 /index.php/Admin/Suplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+ERR: 无法加载模块:Admin
+

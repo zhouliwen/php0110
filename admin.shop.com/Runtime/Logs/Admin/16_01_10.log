@@ -1,0 +1,1617 @@
+[ 2016-01-10T19:20:50+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002435s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0245s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007007s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007369s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002054s ]
+
+[ 2016-01-10T19:21:02+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index.html?keyword=%E8%B4%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 0,3   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000844s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022307s ]
+
+[ 2016-01-10T19:21:05+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 3,3   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000430s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000682s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004636s ]
+
+[ 2016-01-10T19:21:07+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 6,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000529s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-01-10T19:21:08+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 9,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000373s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000683s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-01-10T19:21:09+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 12,3   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000732s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2016-01-10T19:21:11+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 0,3   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2016-01-10T19:21:13+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 3,3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000679s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2016-01-10T19:21:14+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 6,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2016-01-10T19:21:16+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 9,3   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.016586s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2016-01-10T19:21:17+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 12,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2016-01-10T19:21:43+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/changestatus/id/17/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+SQL: UPDATE `supplier` SET `status`='0' WHERE `id` IN ('17') [ RunTime:0.0006s ]
+
+[ 2016-01-10T19:21:44+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 12,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2016-01-10T19:21:57+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000679s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2016-01-10T19:22:07+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+SQL: UPDATE `supplier` SET `name`='二货士力架供货商',`intro`='二货士力架供货商的简介aaa',`sort`='30',`status`='0' WHERE `id` = 17 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2016-01-10T19:22:08+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 12,3   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-01-10T19:24:12+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 0,3   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000505s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-01-10T19:24:16+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index.html?keyword=%E8%B4%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 0,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-01-10T19:24:20+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000323s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 3,3   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000601s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2016-01-10T19:24:21+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 6,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2016-01-10T19:24:22+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 9,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000741s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2016-01-10T19:24:23+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 12,3   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000795s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-01-10T19:24:47+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 3,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-01-10T19:24:54+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/changestatus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+SQL: UPDATE `supplier` SET `status`='-1',`name`=concat(name,'_del') WHERE `id` IN ('7','8','18') [ RunTime:0.0011s ]
+
+[ 2016-01-10T19:24:55+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 3,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000370s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000865s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-01-10T19:28:09+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 3,3   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000919s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2016-01-10T19:28:11+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2016-01-10T19:28:15+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+
+[ 2016-01-10T19:28:17+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+
+[ 2016-01-10T19:30:00+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001750s ]
+
+[ 2016-01-10T19:30:03+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0006s ]
+
+[ 2016-01-10T19:30:05+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+
+[ 2016-01-10T19:30:21+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2016-01-10T19:30:26+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+
+[ 2016-01-10T19:31:24+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000766s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-01-10T19:31:28+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+SQL: UPDATE `supplier` SET `name`='金星供货商',`intro`='金星供货商的简介好好',`sort`='25',`status`='1' WHERE `id` = 10 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2016-01-10T19:31:29+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 3,3   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2016-01-10T19:33:10+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 3,3   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2016-01-10T19:33:12+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/changestatus/id/10/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0006s ]
+SQL: UPDATE `supplier` SET `status`='0' WHERE `id` IN ('10') [ RunTime:0.0009s ]
+
+[ 2016-01-10T19:33:13+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 3,3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2016-01-10T19:33:17+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000655s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-01-10T19:33:42+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-01-10T19:34:30+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000547s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-01-10T19:35:38+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2016-01-10T19:35:50+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000656s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2016-01-10T19:35:58+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/keyword/%E8%B4%A7/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `supplier` WHERE `name` LIKE '%货%' AND `status` > -1 ORDER BY `sort` asc LIMIT 3,3   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003768s ]
+
+[ 2016-01-10T19:36:01+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022606s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000775s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2016-01-10T19:36:13+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 0,3   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001612s ]
+
+[ 2016-01-10T19:36:16+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 12,3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000414s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-01-10T19:36:17+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 9,3   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2016-01-10T19:36:19+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 6,3   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000898s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2016-01-10T19:36:25+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/changestatus/id/9/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+SQL: UPDATE `supplier` SET `status`='0' WHERE `id` IN ('9') [ RunTime:0.0008s ]
+
+[ 2016-01-10T19:36:26+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 6,3   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000522s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2016-01-10T19:36:28+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2016-01-10T19:37:57+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002798s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 6,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000008s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2016-01-10T19:38:04+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/changestatus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000327s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0230s ]
+SQL: UPDATE `supplier` SET `status`='-1',`name`=concat(name,'_del') WHERE `id` IN ('9') [ RunTime:0.0019s ]
+
+[ 2016-01-10T19:38:05+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 6,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2016-01-10T19:38:46+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 6,3   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000443s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-01-10T19:38:48+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2016-01-10T19:39:18+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 6,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000369s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002580s ]
+
+[ 2016-01-10T19:43:18+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 6,3   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2016-01-10T19:43:20+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 28 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 42 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2016-01-10T19:44:50+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 28 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 42 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-01-10T19:45:07+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `supplier` WHERE `name` = '普京供货商' LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `supplier` (`name`,`intro`,`sort`,`status`,`id`) VALUES ('普京供货商','普京供货商的简介','20','1','0') [ RunTime:0.0005s ]
+
+[ 2016-01-10T19:45:08+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 6,3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2016-01-10T19:45:11+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 12,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2016-01-10T19:45:14+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 0,3   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000545s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2016-01-10T19:45:20+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit/id/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000006s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2016-01-10T19:45:26+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+SQL: UPDATE `supplier` SET `name`='普京供货商',`intro`='普京供货商的简介',`sort`='20',`status`='0' WHERE `id` = 21 [ RunTime:0.0009s ]
+
+[ 2016-01-10T19:45:27+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 0,3   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-01-10T19:50:32+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000524s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000952s ]
+
+[ 2016-01-10T19:51:06+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011923s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 0,3   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000542s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2016-01-10T19:51:11+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/changestatus/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+SQL: UPDATE `supplier` SET `status`='1' WHERE `id` IN ('21') [ RunTime:0.0004s ]
+
+[ 2016-01-10T19:51:12+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 0,3   [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-01-10T19:51:16+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/changestatus/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002101s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+SQL: UPDATE `supplier` SET `status`='0' WHERE `id` IN ('19','21','1') [ RunTime:0.0015s ]
+
+[ 2016-01-10T19:51:17+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 0,3   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000563s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-01-10T19:51:20+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/changestatus/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0011s ]
+SQL: UPDATE `supplier` SET `status`='1' WHERE `id` IN ('19','21','1') [ RunTime:0.0005s ]
+
+[ 2016-01-10T19:51:21+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000711s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2016-01-10T22:25:34+08:00 ] 192.168.1.112 /index.php/Admin/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002616s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0390s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0087s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 ORDER BY `sort` asc LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.012568s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013141s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002307s ]
+
