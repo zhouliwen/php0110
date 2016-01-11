@@ -1,0 +1,33 @@
+<!-- $Id: brand_info.htm 14216 2008-03-10 02:27:21Z testyang $ -->
+<extend name="Common:edit"/>
+<block name="body">
+    <form method="post" action="{:U()}">
+        <div class="main-div">
+                <table cellspacing="1" cellpadding="3" width="100%">
+                    <tr>
+                        <td class="label">{$meta_title}名称</td>
+                        <td>
+                            <textarea  name="name" cols="60" rows="4" value="" ></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><br />
+                            <input type="submit"  value=" 确定 " />
+                            <input type="reset" class="button" value=" 重置 " />
+                        </td>
+                    </tr>
+                </table>
+        </div>
+    </form>
+</block>
+<block name="js">
+    <script type="text/javascript" src="__JS__/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="__LAYER__"></script>
+    <script type="text/javascript" src="__JS__/jquery.form.js"></script>
+    <script type="text/javascript" src="__JS__/common.js"></script>
+    <script type='text/javascript'>
+        $(function(){
+            $('.status').val([{$status | default = 1}]);
+        });
+    </script>
+</block>
