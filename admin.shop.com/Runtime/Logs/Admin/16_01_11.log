@@ -712,3 +712,107 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
 
+[ 2016-01-11T13:50:15+08:00 ] 192.168.1.112 /index.php/Admin/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2016-01-11T13:50:20+08:00 ] 192.168.1.112 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SELECT TABLE_COMMENT FROM information_schema.`TABLES` WHERE TABLE_SCHEMA='shop' AND TABLE_NAME='goods' [ RunTime:0.0010s ]
+SQL: show full columns from goods [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000837s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2016-01-11T13:50:21+08:00 ] 192.168.1.112 /index.php/Admin/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000313s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000363s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2016-01-11T13:53:17+08:00 ] 192.168.1.112 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SELECT TABLE_COMMENT FROM information_schema.`TABLES` WHERE TABLE_SCHEMA='shop' AND TABLE_NAME='goods' [ RunTime:0.0012s ]
+SQL: show full columns from goods [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002138s ]
+
+[ 2016-01-11T13:53:18+08:00 ] 192.168.1.112 /index.php/Admin/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003977s ]
+
