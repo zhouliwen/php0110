@@ -8,7 +8,7 @@ class <?php echo $name?>Model extends BaseModel{
         <?php
           foreach($fields as $field){
           //id和可以为空的字段不生成验证规则
-            if($field['null'] == 'YES' || $field['field'] == 'id'){
+            if($field['null'] == 'YES'){
             continue;
             }
             echo "array('{$field['field']}','require','{$field['comment']}不应为空!'), \r\n";//验证是否为空
