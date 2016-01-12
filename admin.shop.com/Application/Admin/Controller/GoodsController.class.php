@@ -6,5 +6,6 @@ class GoodsController extends BaseController{
     public function index()
     {
         $this->display('edit');
+        //phpinfo();
     }
 }

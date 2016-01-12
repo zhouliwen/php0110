@@ -1,5 +1,8 @@
 <!-- $Id: brand_info.htm 14216 2008-03-10 02:27:21Z testyang $ -->
 <extend name="Common:edit"/>
+<block name="css">
+    <link href="__CSS__/common.css" rel="stylesheet" type="text/css" />
+</block>
 <block name="body">
 <div class="main-div">
     <form method="post" action="{:U()}"><!--enctype="multipart/form-data" -->
@@ -20,8 +23,13 @@
             <tr>
                 <td class="label">{$meta_title}LOGO</td>
                 <td>
-                    <input type="file" name="logo" id="logo" size="45" disabled="false"><br/>
-                    <span class="notice-span" style="display:block"  id="warn_brandlogo">请上传图片，做为{$meta_title}的LOGO！</span>
+                    <input type="file" name="logo_upload" id="logo_upload" class="uploadify-button" size="45"/><br/>
+                    <input type="hidden" name="logo" class="logo" value="" maxlength='60'/>
+                    <div class="upload-img-box" style="display: none">
+                        <div class="upload-pre-item">
+                            <img src="">
+                        </div>
+                    </div>
                 </td>
             </tr>
             <tr>
@@ -56,9 +64,40 @@
 </block>
 <block name="foot">
     <script type="text/javascript" src="__JS__/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="__LAYER__"></script>
+    <script type="text/javascript" src="__JS__/jquery.form.js"></script>
+    <script type="text/javascript" src="__JS__/common.js"></script>
+    <script type="text/javascript" src="__UPLOADIFY__/jquery.uploadify.js"></script>
     <script type='text/javascript'>
-        $(function(){
-             $('.status').val([{$status | default = 1}]);
+        $(function() {
+            //设置状态值或默认值
+            $('.status').val([{$status | default = 1}]);
+            //引用uploadify做上传的功能
+            $("#logo_upload").uploadify({
+                'height': 28,
+                'width':120,
+                'debug' : true,  //是否调试
+                'fileSizeLimit' : '1024KB',//最大上传大小
+                'fileTypeExts' : '*.gif; *.jpg; *.png',//可以传的类型
+                //fileObjName : 'the_files',//上传该文件时,以什么名字上传..   $_FIELS['Filedata']  . 默认为:Filedata
+                'buttonText' : '上传图片',
+                'formData':{'dir':'brand-logo'},//上传图片时额外传入的参数，表示要传入到哪个文件夹下
+                'swf'           : '__UPLOADIFY__/uploadify.swf',
+                'uploader'      : "{:U('Admin/Upload/index')}",
+                'onUploadError' : function(file, errorCode, errorMsg, errorString) {
+                    alert('The file ' + file.name + ' could not be uploaded: ' + errorString);
+                },
+                'onUploadSuccess' : function(file, data, response) {
+                    //显示出div
+                    $('.upload-img-box').show();
+                    //将生成的图片放在盒子中
+                    $('.upload-pre-item img').attr('src','/Uploads/'+data);
+                    //将图片的路径放在隐藏域里保存到数据库里
+                    $('.logo').val(data);
+
+                },
+
+            });
         });
     </script>
 </block>

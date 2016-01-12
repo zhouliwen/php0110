@@ -11,6 +11,7 @@ return array(
         '__JS__'=>__URL_PATH__.'Public/Admin/js',
         '__IMG__'=>__URL_PATH__.'Public/Admin/images',
         '__LAYER__'=>__URL_PATH__.'Public/Admin/layer/layer.js',
+        '__UPLOADIFY__'=>__URL_PATH__.'Public/Admin/uploadify',
     ),
     'PAGE_SIZE'=>3,
 );
