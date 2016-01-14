@@ -1,0 +1,123 @@
+<extend name="Common:edit"/>
+<block name="css">
+    <link rel="stylesheet" href="__ZTREE__/css/zTreeStyle/zTreeStyle.css" type="text/css">
+</block>
+<block name="body">
+    <form method="post" action="{:U()}">
+    <div class="main-div">
+            <table cellspacing="1" cellpadding="3" width="100%">
+                   <tr>
+                       <td class='label'>名称</td>
+                        <td>
+                            <input type='text' name="name" maxlength='60' value='{$name}'/><span class='require-field'>*</span>
+                        </td>
+                    </tr>
+                <tr>
+                    <td class="label">父分类</td>
+                    <td>
+                        <!--保存父分类的ID-->
+                        <input type="hidden"  class="parent_id" name="parent_id" value="0">
+                        <!--存放父分类名字.-->
+                        <input type='text' class="parent_name" name='parent_name' maxlength='60' value='默认为顶级分类' disabled="disabled"/>
+                        <span  class="require-field">*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label"></td>
+                    <td>
+                        <style type="text/css">
+                            ul.ztree {
+                                margin-top: 10px;
+                                border: 1px solid #617775;
+                                background: #f0f6e4;
+                                width: 220px;
+                                height: auto;
+                                overflow-y: scroll;
+                                overflow-x: auto;
+                            }
+                        </style>
+                        <ul id="treeDemo" class="ztree"></ul>
+                    </td>
+                </tr>
+                   <tr>
+                       <td class='label'>简介</td>
+                        <td>
+                            <textarea  name="intro" cols='60' rows='4' value='' >{$intro}</textarea>
+                        </td>
+                   </tr>
+                   <tr>
+                       <td class='label'>状态</td>
+                        <td>
+                            <input type='radio' name="status" class="status" value='1' /> 是
+                            <input type='radio' name="status" class="status" value='0' /> 否
+                        </td>
+                   </tr>
+                   <tr>
+                       <td class='label'>排序</td>
+                        <td>
+                            <input type='text' name='sort' maxlength='40' size='15' value='{$sort | default = 20}' />
+                        </td>
+                    </tr>
+                   <tr>
+                    <td colspan="2" align="center"><br />
+                        <input type="hidden" name="id" value="{$id}"/>
+                        <input type="submit" class="ajax-post" value=" 确定 " />
+                        <input type="reset" class="button" value=" 重置 " />
+                    </td>
+                   </tr>
+            </table>
+    </form>
+    </div>
+</block>
+<block name="js">
+    <script type="text/javascript" src="__JS__/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="__LAYER__"></script>
+    <script type="text/javascript" src="__JS__/jquery.form.js"></script>
+    <script type="text/javascript" src="__JS__/common.js"></script>
+    <script type="text/javascript" src="__ZTREE__/js/jquery.ztree.core-3.5.js"></script>
+    <script type='text/javascript'>
+        $(function(){
+            $('.status').val([{$status | default = 1}]);
+            var setting = {
+                data: {
+                    simpleData: {
+                        enable: true,
+                        pIdKey: 'parent_id',
+                    }
+                },
+                view: {
+                    showIcon: false
+                },
+                callback: {
+                    onClick: function(event, treeId, treeNode){
+                        //得到当前节点对象的json对象,将该内容设置到表单中
+                        //当选中下拉框的父级分类时，将该分类对应的id和name放入表单对应的位置，方便写入数据库
+                        $('.parent_id').val(treeNode.id);
+                        $('.parent_name').val(treeNode.name);
+                    }
+                }
+            };
+            var zNodes ={$zNodes};
+            $(document).ready(function(){
+                //得到树结构的树对象
+                var treeObj = $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+                <empty name='Think.get.id'>
+                    //展开所有的节点,此时为添加的页面
+                    treeObj.expandAll(true);
+                <else/>
+                    //编辑的回显：找到要选中的父分类
+                    var parent_id = {$parent_id};
+                //找到id为parent_id的节点
+                    var node = treeObj.getNodesByParam("id", parent_id);
+                //选中该节点
+                    treeObj.selectNode(node[0]);
+                //将此节点的值回显在表单上的正确的位置上
+                    $('.parent_id').val(node[0].id);
+                    $('.parent_name').val(node[0].name);
+                </empty>
+
+            });
+
+        });
+    </script>
+</block>

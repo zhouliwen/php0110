@@ -53,6 +53,7 @@ abstract class BaseController extends Controller
         if (IS_GET) {
             //表示的是单纯的增加的页面
             $this->assign('meta_title',$this->meta_title);
+            $this->_edit_view_before();
             $this->display('edit');
         } else {
             //表示的是添加供应商到数据库里面
@@ -79,6 +80,7 @@ abstract class BaseController extends Controller
             $row = $this->model->find(I('get.id'));
             $this->assign('meta_title',$this->meta_title);
             $this->assign($row);
+            $this->_edit_view_before();
             $this->display('edit');
         } else {
             //表示此时为修改数据到数据库里面的操作
@@ -88,7 +90,7 @@ abstract class BaseController extends Controller
                     return;
                 }
             }
-            $this->error('操作失败!<br/>'.get_error_massage($this->model));
+            $this->error('亲,没有做任何文字修改哦!<br/>'.get_error_massage($this->model));
         }
     }
 
@@ -126,5 +128,7 @@ abstract class BaseController extends Controller
         //查询出status>-1的所有数据
         $wheres['status'] = array('gt', -1);
         return $model->order($orders)->where($wheres)->select();
+    }
+    protected function _edit_view_before(){
     }
 }

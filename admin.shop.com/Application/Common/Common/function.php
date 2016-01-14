@@ -27,3 +27,18 @@ function get_error_massage($SupplierModel)
         return $errorMsg;
     }
 }
+
+/**
+ * @param array $arr  传入的一个二维的关联数组
+ * @param $field      传入的此数组中的某个字段值
+ * @return array      返回该字段对应的一列一维数组
+ */
+if(!function_exists('array_column')){//做兼容性的处理
+    function array_column(array $arr,$field){
+        $data = array();
+        foreach($arr as $v){
+            $data[] = $v[$field];
+        }
+        return $data;
+    }
+}

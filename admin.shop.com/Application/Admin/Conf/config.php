@@ -12,6 +12,8 @@ return array(
         '__IMG__'=>__URL_PATH__.'Public/Admin/images',
         '__LAYER__'=>__URL_PATH__.'Public/Admin/layer/layer.js',
         '__UPLOADIFY__'=>__URL_PATH__.'Public/Admin/uploadify',
+        '__TREEGRID__'=>__URL_PATH__.'Public/Admin/treegrid',
+        '__ZTREE__'=>__URL_PATH__.'Public/Admin/zTree',
     ),
     'PAGE_SIZE'=>3,
 );

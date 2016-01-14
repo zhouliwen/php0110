@@ -59,6 +59,6 @@ abstract class BaseModel extends Model
             //表示的是此时是放入回收站,给供货商的名字加一个后缀
             $data['name'] = array('exp', "concat(name,'_del')");
         }
-        return $this->save($data);
+        return parent::save($data);
     }
 }
