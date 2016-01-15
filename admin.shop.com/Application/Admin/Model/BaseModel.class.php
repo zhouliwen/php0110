@@ -45,7 +45,11 @@ abstract class BaseModel extends Model
             $pagehtml = $Page->show();
         }
         //定义排序的原则
-        $orders['sort'] = 'asc';
+        $orders = array();
+        if(in_array('sort',$this->getDbFields())){
+            $orders['sort'] = 'asc';
+        }
+
         //得到要展示到列表的数据
         $pagelist = $this->where($wheres)->order($orders)->limit($Page->firstRow, $Page->listRows)->select();
         //将$pagehtml 和 $pagelist放入一个数组中,返回

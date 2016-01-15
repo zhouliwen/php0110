@@ -20,9 +20,17 @@ class UploadController extends Controller
         //echo $dir;
         $config = array(
             'rootPath'     => './Uploads/', //保存根路径
+           //'rootPath'     => './', //保存根路径
             'savePath'     => $dir."/", //保存路径
-            'driver'       => '', // 文件上传驱动
-            'driverConfig' => array(), // 上传驱动配置
+            //'driver'       => 'Upyun', // 文件上传驱动
+//            'driverConfig' => array(
+//                'host'     => 'v0.api.upyun.com', //又拍云服务器
+//                'username' => 'itsource', //又拍操作员用户
+//                'password' => 'itsource', //又拍云操作员密码
+//                'bucket'   => 'hello-girl', //空间名称
+//                'timeout'  => 90, //超时时间
+//            ), // 上传驱动配置
+
         );
         $upload = new Upload($config);
         $result = $upload->uploadOne($_FILES['Filedata']);

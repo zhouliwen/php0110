@@ -9,7 +9,7 @@ use Think\Controller;
  */
 class BrandController extends BaseController{
     //put your code here
-    protected $meta_title = "品牌";
+    protected $meta_title = "商品品牌";
 
 
 }

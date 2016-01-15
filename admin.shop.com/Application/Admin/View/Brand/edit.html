@@ -76,18 +76,19 @@
             $("#logo_upload").uploadify({
                 'height': 28,
                 'width':120,
-                'debug' : true,  //是否调试
+                'debug' : false,  //是否调试
                 'fileSizeLimit' : '1024KB',//最大上传大小
                 'fileTypeExts' : '*.gif; *.jpg; *.png',//可以传的类型
                 //fileObjName : 'the_files',//上传该文件时,以什么名字上传..   $_FIELS['Filedata']  . 默认为:Filedata
                 'buttonText' : '上传图片',
                 'formData':{'dir':'brand-logo'},//上传图片时额外传入的参数，表示要传入到哪个文件夹下
-                'swf'           : '__UPLOADIFY__/uploadify.swf',
-                'uploader'      : "{:U('Admin/Upload/index')}",
+                'swf'           : '__UPLOADIFY__/uploadify.swf',//引用flash插件
+                'uploader'      : "{:U('Admin/Upload/index')}",//操作上传完图片后的链接
                 'onUploadError' : function(file, errorCode, errorMsg, errorString) {
                     alert('The file ' + file.name + ' could not be uploaded: ' + errorString);
                 },
                 'onUploadSuccess' : function(file, data, response) {
+                    //console.debug(data);
                     //显示出div
                     $('.upload-img-box').show();
                     //将生成的图片放在盒子中

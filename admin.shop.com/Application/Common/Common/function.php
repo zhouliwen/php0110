@@ -42,3 +42,16 @@ if(!function_exists('array_column')){//做兼容性的处理
         return $data;
     }
 }
+function arrToselect($class,$data,$default='',$valField = 'id',$textField = 'name'){
+    $select = "<select class='{$class}' name='{$class}'>";
+    $select.='<option value="">----请选择------</option>';
+    $selected = '';
+    foreach($data as $v){
+        if($v['id'] == $default){
+            $selected = 'selected="selected"';
+        }
+        $select.="<option value='{$v[$valField]}' $selected>{$v[$textField]}</option>";
+    }
+    $select.='</select>';
+    return $select;
+}

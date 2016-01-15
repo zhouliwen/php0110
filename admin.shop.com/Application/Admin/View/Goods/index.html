@@ -1,55 +1,76 @@
 <extend name="Common:index"/>
 <block name="css">
-    <link href="__CSS__/page.css" rel="stylesheet" type="text/css" />
+    <link href="__CSS__/page.css" rel="stylesheet" type="text/css"/>
 </block>
 <block name="body">
     <h1>
-        <span class="action-span"><a href="{:U('add')}">添加供货商</a></span>
+        <span class="action-span"><a href="{\:U('add')}">添加{$meta_title}</a></span>
         <span class="action-span1"><a href="#">ECSHOP 管理中心</a></span>
-        <span id="search_id" class="action-span1"> - 商品供货商 </span>
+        <span id="search_id" class="action-span1"> - 商品{$meta_title} </span>
+
         <div style="clear:both"></div>
     </h1>
     <div class="form-div">
-        <form action="{:U()}" name="searchForm">
-            <img src="__IMG__/icon_search.gif" width="26" height="22" border="0" alt="search" />
+        <form action="{\:U()}" name="searchForm">
+            <img src="__IMG__/icon_search.gif" width="26" height="22" border="0" alt="search"/>
             <input type="text" name="keyword" size="15" value="{$Think.get.keyword | urldecode}"/>
-            <input type="submit" value=" 搜索 " class="button" />
+            <input type="submit" value=" 搜索 " class="button"/>
         </form>
     </div>
-    <input type="button" name="id" class="deleteAll ajax-post" value="删除" src="{:U('changestatus')}"/>
-    <input type="button" name="id" class="deleteAll ajax-post" value="显示" src="{:U('changestatus',array('status'=>1))}"/>
-    <input type="button" name="id" class="deleteAll ajax-post" value="隐藏" src="{:U(' changestatus',array('status'=>0))}"/>
-        <div class="list-div" id="listDiv">
-            <table cellpadding="3" cellspacing="1">
-                <tr>
-                    <th><input type="checkbox" name="ids" class="button"/>ID</th>
-                    <!--使用注解生成表头-->
-                    <th>{$meta_title}名称</th>
-                    <th>操作</th>
-                </tr>
+    <input type="button" name="id" class="deleteAll ajax-post" value="删除" src="{\:U('changestatus')}"/>
+    <input type="button" name="id" class="deleteAll ajax-post" value="显示"
+           src="{\:U('changestatus',array('status'=>1))}"/>
+    <input type="button" name="id" class="deleteAll ajax-post" value="隐藏"
+           src="{\:U('changestatus',array('status'=>0))}"/>
+
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1">
+            <tr>
+                <th><input type="checkbox" name="ids" class="button"/>ID</th>
+                <!--使用注解生成表头-->
+                <th>商品名称</th>
+                <th>简称</th>
+                <th>货号</th>
+                <th>商品分类</th>
+                <th>商品品牌</th>
+                <th>供货商</th>
+                <th>本店价格</th>
+                <th>市场价格</th>
+                <th>商品LOGO</th>
+                <th>库存</th>
+                <th>商品状态</th>
+                <th>是否显示</th>
+                <th>操作</th>
+            </tr>
                 <volist name="rows" id="row">
                     <tr>
-                        <td><input type="checkbox" name="id[]" class="ids" value="{$row.id}"/>{$row.id}</td>
-                        <td class='first-cell'><span>{$row.name}</span></td>
-                        <td align='center'><span>{$row.intro}</span></td>
-                        <td align='center'>{$row.sort}</td>
-                        <td align='center'><a class='ajax-get' href="{:U('changestatus',array('id'=>$row['id'],'status'=>1-$row['status']))}"><img src="__IMG__/{$row['status'] == 1?'yes':'no'}.gif" /></a></td>
-                        <td>
+                        <td width="30">{$row.id}<input type="checkbox" name="id[]" class="ids" value="{$row.id}"/></td>
+                        <td class="first-cell">{$row.name}</td><td align="center">{$row.short_name}</td>
+                        <td align="center">{$row.sn}</td>
+                        <td align="center">{$row.goods_category_id}</td>
+                        <td align="center">{$row.brand_id}</td>
+                        <td align="center">{$row.supplier_id}</td>
+                        <td align="center">{$row.shop_price}</td>
+                        <td align="center">{$row.market_price}</td>
+                        <td align="center">{$row.logo}</td>
+                        <td align="center">{$row.stock}</td><td align="center">{$row.goods_status}</td>
+                        <td align="center"><a class="ajax-get" href="{:U('changestatus',array('id'=>$row['id'],'status'=>1-$row['status']))}"><img src="__IMG__/{$row['status'] == 1?'yes':'no'}.gif" /></a></td>
+                        <td align="center">
                             <a href="{:U('edit',array('id'=>$row['id']))}" title="编辑">编辑</a> |
-                            <a class="ajax-get" href="{:U('changestatus',array('id'=>$row['id']))}" title="移除">移除</a>
+                            <a  class="ajax-get" href="{:U('changeStatus',array('id'=>$row['id']))}" title="移除">移除</a>
                         </td>
                     </tr>
                 </volist>
-            </table>
-            <table id="page-table" cellspacing="0">
-                <tr>
-                    <!--<td width="80%">&nbsp;</td>-->
-                    <td align="left" nowrap="true" class="page">
-                        {$pagehtml}
-                    </td>
-                </tr>
-            </table>
-        </div>
+        </table>
+        <table id="page-table" cellspacing="0">
+            <tr>
+                <!--<td width="80%">&nbsp;</td>-->
+                <td align="left" nowrap="true" class="page">
+                    {$pagehtml}
+                </td>
+            </tr>
+        </table>
+    </div>
 </block>
 <block name="js">
     <script type="text/javascript" src="__JS__/jquery-1.11.3.js"></script>
@@ -57,7 +78,7 @@
     <script type="text/javascript" src="__JS__/jquery.form.js"></script>
     <script type="text/javascript" src="__JS__/common.js"></script>
     <script type="text/javascript">
-        function del(){
+        function del() {
             confirm('是否放入回收站');
         }
     </script>

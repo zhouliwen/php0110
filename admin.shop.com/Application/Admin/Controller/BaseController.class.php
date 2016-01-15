@@ -14,6 +14,7 @@ header('Content-Type:text/html;charset=utf-8');
 abstract class BaseController extends Controller
 {
     protected $model;
+    protected $usePostParams = false;//默认为false
     public function _initialize(){
         //避免自己定义的时候忘了引用父级的构造函数
         $this->model = D(CONTROLLER_NAME);
@@ -38,6 +39,7 @@ abstract class BaseController extends Controller
             $wheres['name'] = array('like', "%$keyword%");
         }
         $pageMsg = $this->model->getPageMsg($wheres);
+
         //设置cookie保存当前的url地址
         cookie('__forward__', $_SERVER['REQUEST_URI']);
         $this->assign('meta_title',$this->meta_title);
@@ -58,9 +60,9 @@ abstract class BaseController extends Controller
         } else {
             //表示的是添加供应商到数据库里面
             //1.自动验证
-            if ($this->model->create()) {
-                //表示验证成功,进行添加数据的操作
-                if ($this->model->add()) {
+            if ($this->model->create() !== false) {
+                //表示验证成功,进行添加数据的操作$this->usePostParams为true则表示需要得到所有数据
+                if ($this->model->add($this->usePostParams?I('post.'):'') !== false) {
                     $this->success('添加成功!', cookie('__forward__'));
                     return;
                 }
@@ -84,13 +86,13 @@ abstract class BaseController extends Controller
             $this->display('edit');
         } else {
             //表示此时为修改数据到数据库里面的操作
-            if ($this->model->create()) {
-                if ($this->model->save()) {
+            if ($this->model->create() !== false) {
+                if ($this->model->save($this->usePostParams?I('post.'):'') !== false) {
                     $this->success('修改成功!', cookie('__forward__'));
                     return;
                 }
             }
-            $this->error('亲,没有做任何文字修改哦!<br/>'.get_error_massage($this->model));
+            $this->error('亲,没有修改正确哦!<br/>'.get_error_massage($this->model));
         }
     }
 
@@ -124,10 +126,10 @@ abstract class BaseController extends Controller
     public function getlist($model)
     {
         //定义排序的原则
-        $orders['sort'] = 'asc';
+       // $orders['sort'] = 'asc';
         //查询出status>-1的所有数据
         $wheres['status'] = array('gt', -1);
-        return $model->order($orders)->where($wheres)->select();
+        return $model->where($wheres)->select();
     }
     protected function _edit_view_before(){
     }
